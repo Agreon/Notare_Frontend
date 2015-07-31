@@ -1,0 +1,23 @@
+This is a room with ID: {{roomID}} !
+
+<div id="messages">
+	<div class="messageContainer" ng-repeat="msg in messages">
+		<div class="message">{{msg.text}} by {{msg.user}}</div>
+	</div>
+</div>
+<div id="inputContainer">
+
+</div>
+
+
+<script type="text/ng-template" id="askForUsername.html">
+	<form ng-submit="submit()">
+		<div class="modal-body">
+			<b>Please enter your username!</b>
+			<input type="text" data-ng-model="name">
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" ng-click="submit(name)"></button>
+		</div>
+	</form>
+</script>
