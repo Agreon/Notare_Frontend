@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "directory": "client/bower_components"
+=======
+  "directory": "bower_components"
+>>>>>>> f7caed307d3ee9da6364a88f708ec447f039b17e
 }

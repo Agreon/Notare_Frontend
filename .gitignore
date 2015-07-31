@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 public
 .tmp
@@ -7,3 +8,9 @@ client/bower_components
 dist
 /server/config/local.env.js
 npm-debug.log
+=======
+*.DS_Store
+/css/*
+/bower_components/*
+/node_modules/*
+>>>>>>> f7caed307d3ee9da6364a88f708ec447f039b17e
