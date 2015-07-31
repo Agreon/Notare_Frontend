@@ -6,18 +6,23 @@ This is a room with ID: {{roomID}} !
 	</div>
 </div>
 <div id="inputContainer">
-
+	<input type="text" ng-model="input">
 </div>
+
+<button ng-click="open()">sads</button>
+
+
+
+
 
 
 <script type="text/ng-template" id="askForUsername.html">
-	<form ng-submit="submit()">
-		<div class="modal-body">
-			<b>Please enter your username!</b>
-			<input type="text" data-ng-model="name">
-		</div>
-		<div class="modal-footer">
-			<button type="button" class="btn btn-primary" ng-click="submit(name)"></button>
-		</div>
-	</form>
+	<div class="modal-body">
+		<b>Please enter your username!</b>
+		<br>
+		<input type="text" ng-model="user" placeholder="Username">
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-primary" ng-click="submit()">Submit</button>
+	</div>
 </script>
